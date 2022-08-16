@@ -16,3 +16,9 @@ C:\> <venv>\Scripts\activate.bat
 <venv> must be replaced by the path of the directory containing the virtual environment
 
 then on Visual studio code press "ctrl + shift + p" then "Select interpreter" brows "Add enterpreter path" then select "python.exe" file from \venv\Scripts\python.exe folder. close the terminal and open it again
+
+
+## isntall required packages
+add requirements.txt file. this file contains all required packages
+
+pip install -r requirements.txt
