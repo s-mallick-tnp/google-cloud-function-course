@@ -55,3 +55,13 @@ def hello_world(request):
     
     return f'Hello {name} {lastname}'
 '''
+
+
+## Deploying our functions to google cloud
+First, we have to set our project ID with the following command:
+
+gcloud config set project [YOUR_PROJECT_ID]
+
+Then we deploy our function with this command:
+
+gcloud functions deploy [FUNCTION_NAME] --runtime python37 --trigger-http
