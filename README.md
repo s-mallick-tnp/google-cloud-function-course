@@ -22,3 +22,15 @@ then on Visual studio code press "ctrl + shift + p" then "Select interpreter" br
 add requirements.txt file. this file contains all required packages
 
 pip install -r requirements.txt
+
+
+## Create first cloud function
+inside the targeted folder create a python file "main.py" and create a function there.
+
+## test a function localy
+navigate to the targeted folder ie. cd Helloworld
+
+functions-framework --target hello_world
+
+## Pstman
+Postman is the most popular software to test APIs
